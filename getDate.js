@@ -18,6 +18,10 @@ const getDate = () =>{
     let persianDayName = generateNewArray[dateObj.getDay()];
     const showPersianDate = document.getElementById("persian").innerHTML = generateNewArray + convertToday;
 }
+const resetDate = () =>{
+    document.getElementById("gregorian").innerHTML = "";
+    document.getElementById("persian").innerHTML = "";
+}
 
 
 
